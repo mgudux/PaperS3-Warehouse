@@ -6,11 +6,10 @@ Warehouse workers can update stock counts directly at the shelf without needing 
 
 The firmware, bluetooth communication and website is fully functional. The only feature that I couldn't implement was flashing device via browser. Unfortunately, you need the official "M5Burner" software to flash the firmware on the PaperS3. 
 
-Here's a quick 1 minute preview:
+Here's a quick preview:
 ---
 
 
-https://github.com/user-attachments/assets/7dcdffc9-c973-4dbe-a684-dd5da1b88f28
 
 ## Project Structure
 
