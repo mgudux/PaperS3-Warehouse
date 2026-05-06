@@ -1,5 +1,7 @@
 # Warehouse Digital
 
+Note: This repository is a personal hobby project for learning purposes and as a proof-of-concept.
+
 A warehouse inventory system built around the PaperS3. Each display sits on a shelf and shows what's stored there, tap to add or remove stock and the backend updates automatically over Bluetooth Low Energy with a range of 50+ meters.
 
 Warehouse workers can update stock counts directly at the shelf without needing a scanner, a phone or a PC. The e-paper screens hold their image with no power draw and the whole thing runs for years on a battery.
@@ -115,8 +117,6 @@ The search understands these codes. You can search for `R1`, `R1-E2`, `R1-E2-K3`
 - Warning: Some Endpoints in URL are not accessible as some files are confidental. You can either remove those endpoints or add/change them.
 
 ---
-
-## Notes
 
 - The BLE bridge (`ble_bridge.py`) is meant to run as a persistent process on a machine in the warehouse. It reconnects automatically if a device drops.
 - `django-simple-history` tracks changes to both `Item` and `Device` models. The history tables are `item_history` and `device_history`.
